@@ -1,0 +1,27 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ElinextTestTask" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- Hide the title bar -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+    </style>
+
+    <style name="Theme.ElinextTestTask" parent="Base.Theme.ElinextTestTask">
+        <!-- Set the splash screen background color -->
+        <item name="windowSplashScreenBackground">@color/white</item>
+
+        <!-- Use the app icon as the splash screen icon -->
+        <item name="windowSplashScreenAnimatedIcon">@mipmap/ic_launcher</item>
+
+        <!-- Set the post-splash screen theme -->
+        <item name="postSplashScreenTheme">@style/Theme.ElinextTestTask</item>
+
+        <!-- Hide the title bar -->
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+
+    </style>
+</resources>

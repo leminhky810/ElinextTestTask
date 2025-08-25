@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ElinextTestTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_image">Add image</string>
+    <string name="refresh_images">Refresh images</string>
+    <string name="image_gallery">Image Gallery</string>
+    <string name="no_images_available">No images available</string>
+    <string name="image_thumbnail">Image thumbnail</string>
+    <string name="sync_notification_channel_name">Image Sync</string>
+    <string name="sync_notification_channel_description">Notifications for image synchronization process</string>
+    <string name="sync_notification_title">Syncing Images</string>
+    <string name="sync_notification_progress">Downloading %1$d of %2$d images</string>
+    <string name="sync_notification_completed">Image sync completed successfully</string>
+    <string name="sync_notification_failed">Image sync failed</string>
+    <string name="notification_permission_title">Notification Permission</string>
+    <string name="notification_permission_rationale">This app needs notification permission to show you progress updates when syncing images in the background. This helps you know when the sync is complete.</string>
+    <string name="notification_permission_positive">Allow</string>
+    <string name="notification_permission_negative">Not Now</string>
+    <string name="full_size_image">Full size image</string>
+    <string name="image_no">Image #%1$s</string>
+    <string name="image_detail">Image detail</string>
+    <string name="image_url">Image URL:</string>
+    <string name="reload_all">Reload All</string>
+</resources>
